@@ -15,13 +15,12 @@ const mongoURI= process.env.MONGODB_LOCAL
 mongoose.connect(mongoURI).then(()=>console.log("db연결됨")).catch((err)=>console.log("에러남",err));
 
 
-
 app.listen(5000, function(){
-    console.log('hello world!')
+    console.log('hello worl d!')
 });
 
 app.get('/pet',function(req,res){
-    res.send('펫용품 ㅇㅇdwfwfd');
+    res.send('펫용품wfwf ㅇㅇdwfwfd');
 });
 
 app.get('/b',function(req,res){
